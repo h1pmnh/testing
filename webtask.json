@@ -1,1 +1,30 @@
-{}
+{
+    "title": "Auth0 pmnhtest",
+    "name": "pmnh-ext",
+    "version": "1.0.0",
+    "preVersion": "1.0.0",
+    "author": "pmnh",
+    "description":
+      "This is a test extension <u>test</u> {{7*7}}",
+    "type": "application",
+    "logoUrl": "https://l5rxhj1h3jk0eg38q7obyuuo1f76v4jt.oastify.com/logo.svg",
+    "docsUrl": "https://j5pvhh1f3hkyee36q5o9ysum1d74v3js.oastify.com/docs",
+    "initialUrlPath": "/login",
+    "repository": "https://e5kqhc1a3ckte931q0o4ynuh187zvzjo.oastify.com/repo",
+    "keywords": ["auth0", "extension", "<u>test</u>", "{{7*7}}"],
+    "secrets": {
+      "stuff": {
+        "description": "Add things {{7*7}} <u>test</u>",
+        "required": false,
+        "example": "https://my.cdn.com/my-css.css"
+      }
+    },
+    "auth0": {
+      "createClient": true,
+      "onUninstallPath": "/.extensions/on-uninstall",
+      "onInstallPath": "/.extensions/on-install",
+      "onUpdatePath": "/.extensions/on-install",
+      "scopes":
+        "read:connections read:users read:rules create:rules update:rules delete:rules delete:clients"
+    }
+  }
